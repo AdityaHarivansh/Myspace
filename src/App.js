@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 // import Navbar from './Components/Navbar'
 import Articles from './Screens/Articles'
+import Profile from './Screens/Profile'
 
 
 export default class App extends Component {
@@ -8,7 +9,8 @@ export default class App extends Component {
     return (
       <div style={{background:"#131B24"}}>
         {/* <Navbar></Navbar> */}
-        <Articles></Articles>
+        {/* <Articles></Articles> */}
+        <Profile></Profile>
       </div>
     )
   }
