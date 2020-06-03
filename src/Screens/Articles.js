@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../Stylesheets/Articles.scss'
-// import Navbar from '../Navbar'
+import Navbar from '../Components/Navbar'
 import Blog1 from '../Assets/Blog1.png'
 import Blog2 from '../Assets/Blog2.png'
 import Blog3 from '../Assets/Blog3.png'
@@ -8,7 +8,7 @@ import Facebook from '../Assets/facebook.png'
 import Instagram from '../Assets/Instagram.png'
 import Twitter from '../Assets/twitter.png'
 // import Cross from '../Assets/cross.png'
-import Logo from '../Assets/Logo.PNG'
+import Logo from '../Assets/White-Logo.PNG'
 // import Footer from '../Footer'
 
 
@@ -19,9 +19,9 @@ export default class Articles extends Component {
     render() {
         return (
             <div>
-                {/* <div>
+                <div>
                     <Navbar></Navbar>
-                </div> */}
+                </div>
                 <div className="container" style={{marginTop:"2rem"}}>
                     <div className="row">
                         <div className="col-lg-8">
@@ -33,8 +33,8 @@ export default class Articles extends Component {
                                             <img src={Logo} style={{height:"20%",width:"25%"}}></img>
                                         </div>
                                         <div className="text">
-                                            <p style={{marginTop:"1rem",width:"100%",fontSize:"2rem",fontWeight:"500",color:"#ebab64",fontWeight:"800"}}>The ultimate guide to creating an awesome github profile</p>
-                                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1.5rem",color:"#d74664",fontWeight:"700"}}>Guide on how to build a Github Profile</p>
+                                            <p style={{marginTop:"1rem",width:"100%",fontSize:"2rem",fontWeight:"500",color:"#ebab64",fontWeight:"800"}}>The ultimate guide to creating an awesome Mental Health</p>
+                                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1.5rem",color:"#d74664",fontWeight:"700"}}>Guide on how to build a Mental Health</p>
                                         </div>
                                     </div>
                                 </div>
@@ -47,8 +47,8 @@ export default class Articles extends Component {
                                             <img src={Logo} style={{height:"20%",width:"25%"}}></img>
                                         </div>
                                         <div className="text">
-                                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1rem",fontWeight:"500",color:"#ebab64",fontWeight:"800"}}>The ultimate guide to creating an awesome github profile</p>
-                                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"0.75rem",color:"#d74664",fontWeight:"700"}}>Guide on how to build a Github Profile</p>
+                                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1rem",fontWeight:"500",color:"#ebab64",fontWeight:"800"}}>The ultimate guide to creating an awesome Mental Health</p>
+                                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"0.75rem",color:"#d74664",fontWeight:"700"}}>Guide on how to build a Mental Health</p>
                                         </div>
                                     </div>
                                 </div>
@@ -59,8 +59,8 @@ export default class Articles extends Component {
                                             <img src={Logo} style={{height:"20%",width:"25%"}}></img>
                                         </div>
                                         <div className="text">
-                                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1rem",fontWeight:"500",color:"#ebab64",fontWeight:"800"}}>The ultimate guide to creating an awesome github profile</p>
-                                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"0.75rem",color:"#d74664",fontWeight:"700"}}>Guide on how to build a Github Profile</p>
+                                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1rem",fontWeight:"500",color:"#ebab64",fontWeight:"800"}}>The ultimate guide to creating an awesome Mental Health</p>
+                                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"0.75rem",color:"#d74664",fontWeight:"700"}}>Guide on how to build a Mental Health</p>
                                         </div>
                                     </div>
                                 </div>
@@ -74,8 +74,8 @@ export default class Articles extends Component {
                                             <img src={Logo} style={{height:"20%",width:"25%"}}></img>
                                         </div>
                                         <div className="text21">
-                                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1rem",fontWeight:"500",color:"#ebab64",fontWeight:"800"}}>The ultimate guide to creating an awesome github profile</p>
-                                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"0.75rem",color:"#d74664",fontWeight:"700"}}>Guide on how to build a Github Profile</p>
+                                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1rem",fontWeight:"500",color:"#ebab64",fontWeight:"800"}}>The ultimate guide to creating an awesome Mental Health</p>
+                                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"0.75rem",color:"#d74664",fontWeight:"700"}}>Guide on how to build a Mental Health</p>
                                         </div>
                                     </div>
                             </div>
@@ -86,8 +86,8 @@ export default class Articles extends Component {
                                             <img src={Logo} style={{height:"20%",width:"25%"}}></img>
                                         </div>
                                         <div className="text22">
-                                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1rem",fontWeight:"500",color:"#ebab64",fontWeight:"800"}}>The ultimate guide to creating an awesome github profile</p>
-                                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"0.75rem",color:"#d74664",fontWeight:"700"}}>Guide on how to build a Github Profile</p>
+                                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1rem",fontWeight:"500",color:"#ebab64",fontWeight:"800"}}>The ultimate guide to creating an awesome Mental Health</p>
+                                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"0.75rem",color:"#d74664",fontWeight:"700"}}>Guide on how to build a Mental Health</p>
                                         </div>
                                     </div>
                             </div>
@@ -98,66 +98,16 @@ export default class Articles extends Component {
                                             <img src={Logo} style={{height:"20%",width:"25%"}}></img>
                                         </div>
                                         <div className="text23">
-                                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1rem",fontWeight:"500",color:"#ebab64",fontWeight:"800"}}>The ultimate guide to creating an awesome github profile</p>
-                                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"0.75rem",color:"#d74664",fontWeight:"700"}}>Guide on how to build a Github Profile</p>
+                                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1rem",fontWeight:"500",color:"#ebab64",fontWeight:"800"}}>The ultimate guide to creating an awesome Mental Health</p>
+                                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"0.75rem",color:"#d74664",fontWeight:"700"}}>Guide on how to build a Mental Health</p>
                                         </div>
                                     </div>
                             </div>
                         </div>
                     </div>
                     <div className="row" style={{marginTop:"4rem"}}>
-                        <div className="col-lg-3" style={{padding:"0rem",paddingLeft:"1rem"}}>
-                            <p style={{fontSize:"2rem",color:"white",style:"float"}}>Web Development</p>
-                        </div>
-                        <div className="col-lg-9" style={{padding:"0rem",margin:"auto"}}>
-                            <div style={{background:"#ebab64",height:"0.5rem"}}></div>
-                        </div>
-                    </div>
-                    <div className="row" style={{marginTop:"4rem"}}>
-                        <div className="col-lg-4" style={{padding:"1rem"}} onClick={this.openModal}>
-                            <img src={Blog1} style={{height:"15rem",width:"100%"}}></img>
-                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome github profile</p>
-                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Github Profile</p>
-                        </div>
-                        <div className="col-lg-4" style={{padding:"1rem"}} onClick={this.openModal}>
-                            <img src={Blog2} style={{height:"15rem",width:"100%"}}></img>
-                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome github profile</p>
-                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Github Profile</p>
-                        </div>
-                        <div className="col-lg-4" style={{padding:"1rem"}} onClick={this.openModal}>
-                            <img src={Blog3} style={{height:"15rem",width:"100%"}}></img>
-                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome github profile</p>
-                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Github Profile</p>
-                        </div>
-                    </div>
-                    <div className="row" style={{marginTop:"4rem"}}>
-                        <div className="col-lg-3" style={{padding:"0rem",paddingLeft:"1rem"}}>
-                            <p style={{fontSize:"2rem",color:"white",style:"float"}}>Data Science & ML</p>
-                        </div>
-                        <div className="col-lg-9" style={{padding:"0rem",margin:"auto"}}>
-                            <div style={{background:"#ebab64",height:"0.5rem"}}></div>
-                        </div>
-                    </div>
-                    <div className="row" style={{marginTop:"4rem"}}>
-                        <div className="col-lg-4" style={{padding:"1rem"}} onClick={this.openModal}>
-                            <img src={Blog1} style={{height:"15rem",width:"100%"}}></img>
-                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome github profile</p>
-                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Github Profile</p>
-                        </div>
-                        <div className="col-lg-4" style={{padding:"1rem"}} onClick={this.openModal}>
-                            <img src={Blog2} style={{height:"15rem",width:"100%"}}></img>
-                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome github profile</p>
-                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Github Profile</p>
-                        </div>
-                        <div className="col-lg-4" style={{padding:"1rem"}} onClick={this.openModal}>
-                            <img src={Blog3} style={{height:"15rem",width:"100%"}}></img>
-                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome github profile</p>
-                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Github Profile</p>
-                        </div>
-                    </div>
-                    <div className="row" style={{marginTop:"4rem"}}>
                         <div className="col-lg-2" style={{padding:"0rem",paddingLeft:"1rem"}}>
-                            <p style={{fontSize:"2rem",color:"white",style:"float"}}>Algorithms</p>
+                            <p style={{fontSize:"2rem",color:"white",style:"float"}}>Anxiety</p>
                         </div>
                         <div className="col-lg-10" style={{padding:"0rem",margin:"auto"}}>
                             <div style={{background:"#ebab64",height:"0.5rem"}}></div>
@@ -166,18 +116,68 @@ export default class Articles extends Component {
                     <div className="row" style={{marginTop:"4rem"}}>
                         <div className="col-lg-4" style={{padding:"1rem"}} onClick={this.openModal}>
                             <img src={Blog1} style={{height:"15rem",width:"100%"}}></img>
-                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome github profile</p>
-                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Github Profile</p>
+                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome Mental Health</p>
+                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Mental Health</p>
                         </div>
                         <div className="col-lg-4" style={{padding:"1rem"}} onClick={this.openModal}>
                             <img src={Blog2} style={{height:"15rem",width:"100%"}}></img>
-                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome github profile</p>
-                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Github Profile</p>
+                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome Mental Health</p>
+                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Mental Health</p>
                         </div>
                         <div className="col-lg-4" style={{padding:"1rem"}} onClick={this.openModal}>
                             <img src={Blog3} style={{height:"15rem",width:"100%"}}></img>
-                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome github profile</p>
-                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Github Profile</p>
+                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome Mental Health</p>
+                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Mental Health</p>
+                        </div>
+                    </div>
+                    <div className="row" style={{marginTop:"4rem"}}>
+                        <div className="col-lg-2" style={{padding:"0rem",paddingLeft:"1rem"}}>
+                            <p style={{fontSize:"2rem",color:"white",style:"float"}}>Depression</p>
+                        </div>
+                        <div className="col-lg-10" style={{padding:"0rem",margin:"auto"}}>
+                            <div style={{background:"#ebab64",height:"0.5rem"}}></div>
+                        </div>
+                    </div>
+                    <div className="row" style={{marginTop:"4rem"}}>
+                        <div className="col-lg-4" style={{padding:"1rem"}} onClick={this.openModal}>
+                            <img src={Blog1} style={{height:"15rem",width:"100%"}}></img>
+                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome Mental Health</p>
+                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Mental Health</p>
+                        </div>
+                        <div className="col-lg-4" style={{padding:"1rem"}} onClick={this.openModal}>
+                            <img src={Blog2} style={{height:"15rem",width:"100%"}}></img>
+                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome Mental Health</p>
+                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Mental Health</p>
+                        </div>
+                        <div className="col-lg-4" style={{padding:"1rem"}} onClick={this.openModal}>
+                            <img src={Blog3} style={{height:"15rem",width:"100%"}}></img>
+                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome Mental Health</p>
+                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Mental Health</p>
+                        </div>
+                    </div>
+                    <div className="row" style={{marginTop:"4rem"}}>
+                        <div className="col-lg-2" style={{padding:"0rem",paddingLeft:"1rem"}}>
+                            <p style={{fontSize:"2rem",color:"white",style:"float"}}>Confidence</p>
+                        </div>
+                        <div className="col-lg-10" style={{padding:"0rem",margin:"auto"}}>
+                            <div style={{background:"#ebab64",height:"0.5rem"}}></div>
+                        </div>
+                    </div>
+                    <div className="row" style={{marginTop:"4rem"}}>
+                        <div className="col-lg-4" style={{padding:"1rem"}} onClick={this.openModal}>
+                            <img src={Blog1} style={{height:"15rem",width:"100%"}}></img>
+                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome Mental Health</p>
+                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Mental Health</p>
+                        </div>
+                        <div className="col-lg-4" style={{padding:"1rem"}} onClick={this.openModal}>
+                            <img src={Blog2} style={{height:"15rem",width:"100%"}}></img>
+                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome Mental Health</p>
+                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Mental Health</p>
+                        </div>
+                        <div className="col-lg-4" style={{padding:"1rem"}} onClick={this.openModal}>
+                            <img src={Blog3} style={{height:"15rem",width:"100%"}}></img>
+                            <p style={{marginTop:"1rem",width:"100%",fontSize:"1.5rem",fontWeight:"500",color:"#ebab64"}}>The ultimate guide to creating an awesome Mental Health</p>
+                            <p style={{marginTop:"0.5rem",width:"100%",fontSize:"1rem",color:"#d74664"}}>Guide on how to build a Mental Health</p>
                         </div>
                         
                     </div>
