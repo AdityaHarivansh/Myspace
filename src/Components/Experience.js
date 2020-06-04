@@ -15,7 +15,7 @@ export default class Experience extends Component {
                         <p style={{font:"2rem",color:"white",padding:"0.5rem"}}>Your Story</p>
                     </div>
                     <div className="row " style={{padding:"0.5rem 1rem"}}>
-                        <input type="text"placeholder="Share your experience" style={{width:"100%",height:"50vh"}}></input>
+                        <textarea type="text"placeholder="Share your experience" style={{width:"100%",height:"50vh",padding:"1rem"}}></textarea>
                     </div>
                     <div className="row" style={{padding:"0.5rem 1rem"}}>
                         <div className="col-lg-4" style={{padding:"0rem",background:"white"}}>

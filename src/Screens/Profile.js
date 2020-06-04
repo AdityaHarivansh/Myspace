@@ -25,7 +25,7 @@ export default class Feed extends Component {
                                 <p style={{color:"white",borderRadius:"2rem",border:"0.25rem solid #ebab64",padding:"0.5rem"}}>Taboos</p>
                             </div>
                         </div>
-                        <div className="col-lg-8">
+                        <div className="col-lg-8" style={{textAlign:"center"}}>
                             <Experience></Experience>
                             <div className="row" style={{marginTop:"4rem"}}>
                                 <div className="col-lg-4" style={{padding:"0rem",paddingLeft:"1rem"}}>
@@ -54,6 +54,16 @@ export default class Feed extends Component {
                                 </div>
                                 
                             </div>
+
+                            <div className="row" style={{marginTop:"4rem"}}>
+                                <div className="col-lg-4" style={{padding:"0rem",paddingLeft:"1rem"}}>
+                                    <p style={{fontSize:"2rem",color:"white",style:"float"}}>My Experiences</p>
+                                </div>
+                                <div className="col-lg-8" style={{padding:"0rem",margin:"auto"}}>
+                                    <div style={{background:"#ebab64",height:"0.5rem"}}></div>
+                                </div>
+                            </div>
+                            <Others id={"My Experience"} story={"The first big step for me was accepting, or as is often more difficult, realising that I was mentally unwell. It took me a long time to do this. The days I spent lying in my bedroom on my year abroad, telling myself I was 'just bored', was me refusing to accept the reality that was my mental ill health."}></Others>
 
                         </div>
                         <div className="col-lg-2">
