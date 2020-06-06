@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import Navbar from '../Components/Navbar'
+import '../Stylesheets/Helpline.scss'
 
 export default class Helpline extends Component {
     render() {
         return (
             <div>
                 <Navbar></Navbar>
-                <div className="container" style={{marginTop:"4rem"}}>
+                <div className="container helpline-container"  style={{marginTop:"4rem"}}>
                     <div className="row" >
                         <div className="col-lg-6"style={{padding:"2rem"}}>>
                             <p style={{fontSize:"5rem",color:"#d74664",fontWeight:"bolder",margin:"0rem"}}>Talk to Someone</p>

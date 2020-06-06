@@ -8,6 +8,7 @@ import Login from './Screens/Login.js';
 import SignUp from './Screens/SignUp';
 import Helpline from './Screens/Helpline';
 import AboutUs from './Screens/AboutUs';
+import Interaction from './Screens/Interaction';
 
 
 
@@ -26,7 +27,7 @@ export default class App extends Component {
           <Route exact path="/SignUp" component={SignUp}></Route>
           <Route exact path="/articles" component={Articles}></Route>
           <Route exact path="/helpline" component={Helpline}></Route>
-          <Route exact path="/interaction"></Route>
+          <Route exact path="/interaction" component={Interaction}></Route>
           <Route exact path="/my-stories" component={Profile}></Route>
           <Route exact path="/about-us" component={AboutUs}></Route>
         </div>

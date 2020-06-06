@@ -1,0 +1,101 @@
+.Interaction-container{
+    height: 100vh;
+    color: #ebab64;
+    /* background-color: #272F41; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.6),rgba(0,0,0,0.2)), url("../Assets/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border : 10px solid black;
+}
+
+.Interaction-tabs-container{
+    margin: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    background-color: #131B24;
+    height: 75vh;
+}
+
+.tabs-heading{
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ebab64;
+    // margin-bottom: 0.5rem;
+}
+
+// .Vertical-tab-wrapper{
+//     display: inline-block;
+//     width: 20%;
+// }
+
+// .Vertical-tab{
+//     display: block;
+//     width: 100%;
+//     padding: 1rem;
+// }
+
+// .vertical-tab-panel{
+//     display: flex;
+//     width: 60%;
+//     margin: 0rem !important;
+// }
+
+ul{
+    list-style-type: none;
+    margin: 0rem !important;
+    padding: 0rem !important;
+}
+
+.Vertical-tabs{
+    height: 65vh;
+    display: flex;
+}
+
+.Vertical-tab-wrapper{
+    width: 15rem;
+  background: #263238;
+}
+
+.vertical-tab-panel .react-tabs__tab-panel--selected{
+    flex: 1;
+    display: block;
+    padding: 1.5rem 2rem;
+    
+    // width: 100%;
+
+}
+
+
+.Vertical-tab{
+    display: inline-block;
+    width: 100%;
+    padding: 1rem 2rem;
+    // background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ebab64;
+}
+
+.react-tabs__tab--selected
+{
+    background-color: #37474F;
+}
+
+.Vertical-tab:focus,
+.Vertical-tab:hover {
+  outline: 0;
+  background: #37474F;
+}
+// .vertical-tab-panel{
+//     flex: 1;
+//   display: block;
+//   padding: 1.5rem 2rem;
+// }
+

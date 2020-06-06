@@ -1,0 +1,56 @@
+.Chat-box-container{
+    width: 100%;
+    // position: relative;
+}
+
+.Chat-box-text-wrap{
+    margin: 0.5rem;
+    margin-left: 1.5rem;
+    padding: 1rem;
+    background-color: #37474F;
+    width: 68rem;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 4rem;
+}
+
+.send-button{
+    // display: inline-block;
+    // float: left;
+    position: absolute;
+    bottom: 6rem;
+    left: 87.5rem;
+    font-size: 2rem;
+    // float: right;
+}
+
+.Chats-reply{
+    justify-content: flex-start;
+}
+
+.Chats{
+    justify-content: flex-end;
+}
+
+.Chat-my-text{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    // float: right;
+    margin: 0.5rem;
+    margin-right: 2.5rem;
+    background-color: #263238;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.Chat-text-reply{
+    width: 40%;
+    display: block;
+    margin: 0.5rem;
+    margin-left: 2.5rem;
+    background-color: #263238;
+    padding: 1rem;
+    border-radius: 2rem;
+}

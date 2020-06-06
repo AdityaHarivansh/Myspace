@@ -8,7 +8,7 @@ export default class Others extends Component {
     render() {
         return (
             <div>
-                <div className="container" style={{background:"#283945",margin:"2rem"}}>
+                <div className="container" style={{background:"#283945",margin:"2rem",borderRadius:'1rem'}}>
                     <div className="row" style={{padding:"1rem"}}>
                         <img src={Person} style={{width:"3rem",height:"3rem",float:"left"}}></img>
                         <p style={{font:"2rem",color:"white",padding:"0.5rem"}}>{this.props.id}</p>
@@ -18,8 +18,8 @@ export default class Others extends Component {
                         {this.props.story}
                         </p>
                     </div>
-                    <div className="row" style={{padding:"0.5rem 1rem"}}>
-                        <div className="col-lg-4" style={{padding:"0rem",background:"white"}}>
+                    <div className="row" style={{padding:"2rem 2rem", borderRadius:'2rem'}}>
+                        <div className="col-lg-4" style={{padding:"0rem",background:"white" }}>
                             <img src={Like} style={{padding:"0.5rem 1rem" ,height:"3rem",width:"4rem",float:"left"}}></img>
                             <p style={{padding:"0.5rem",color:"#131B24",fontSize:"1rem",padding:"1rem",margin:"0rem",fontWeight:"bold"}}>Like</p>
                         </div>

@@ -49,7 +49,7 @@ export default class Navbar extends Component {
                             </li>
                             <li class="nav-item" style={{fontSize:"1.25rem",margin:"1rem"}}>
                                 <NavLink exact={true} to="/about-us" className="nav-link" activeStyle={{backgroundColor:"#ebab64"}} >   
-                                    About Us
+                                    Testimonials
                                 </NavLink>
                                 {/* <a class="nav-link" href="#" style={{color:"white",borderRadius:"2rem", padding:"0.5rem"}}>About us</a> */}
                             </li>
